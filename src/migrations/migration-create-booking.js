@@ -8,6 +8,9 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      token: {
+        type: Sequelize.STRING
+      },
       statusId: {
         type: Sequelize.STRING
       },
@@ -21,7 +24,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       timeType: {
-        type: Sequelize.BOOLEAN
+        type: Sequelize.STRING
       },
       
       createdAt: {
